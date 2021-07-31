@@ -16,7 +16,7 @@ class CreateSetupBookType extends Migration
         Schema::table('setup_book_types', function (Blueprint $table) {
             //
             $table->bigIncrements('book_type_id');
-            $table->string('book_status_title');
+            $table->string('book_type_title');
         });
     }
 
